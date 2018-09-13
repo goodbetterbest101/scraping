@@ -1,0 +1,56 @@
+[
+    {
+        "stops": "Nonstop",
+        "ticket price": "2004.27",
+        "departure": ", Bangkok",
+        "arrival": ", Lampang",
+        "flight duration": "0 days 1 hours 35 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "ATR 72",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "5:05pm",
+                "arrival_airport": "Lampang, Thailand (LPT)",
+                "arrival_time": "6:40pm"
+            }
+        ],
+        "plane code": "AT7"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2004.27",
+        "departure": ", Bangkok",
+        "arrival": ", Lampang",
+        "flight duration": "0 days 1 hours 35 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "ATR 72",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "6:15am",
+                "arrival_airport": "Lampang, Thailand (LPT)",
+                "arrival_time": "7:50am"
+            }
+        ],
+        "plane code": "AT7"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2004.27",
+        "departure": ", Bangkok",
+        "arrival": ", Lampang",
+        "flight duration": "0 days 1 hours 35 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "ATR 72",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "11:55am",
+                "arrival_airport": "Lampang, Thailand (LPT)",
+                "arrival_time": "1:30pm"
+            }
+        ],
+        "plane code": "AT7"
+    }
+]

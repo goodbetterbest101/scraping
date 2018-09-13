@@ -1,0 +1,632 @@
+[
+    {
+        "stops": "Nonstop",
+        "ticket price": "1116.88",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "8:15pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "9:40pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "1116.88",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "7:35pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "9:00pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "1116.88",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "8:35pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "9:55pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "1116.88",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "3:35pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "5:00pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "1116.88",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "3:20pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "4:45pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "1116.88",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "4:30pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "6:00pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "1116.88",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "7:00pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "8:25pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "1116.88",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "3:55pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "5:25pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "1116.88",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "5:50pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "7:15pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "1535.13",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "Boeing 737-800",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "10:00pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "11:25pm"
+            }
+        ],
+        "plane code": "738"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "1661.85",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "2:45pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "4:10pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2027.58",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "3:00am",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "4:25am"
+            }
+        ],
+        "plane code": "333"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2078.80",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "3:35am",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "5:00am"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2201.25",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "9:55pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "11:20pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2201.25",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "7:45pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "9:10pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2224.56",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "Boeing 737-900",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "1:45pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "3:10pm"
+            }
+        ],
+        "plane code": "739"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2492.78",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "1:25pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "2:50pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2618.52",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "AIRBUS INDUSTRIE A330-300",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "12:25pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "1:50pm"
+            }
+        ],
+        "plane code": "333"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2693.70",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "1:55pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "3:20pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2693.70",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "10:00am",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "11:25am"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2693.70",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "6:25am",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "7:50am"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2693.70",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "4:55pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "6:20pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2693.70",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "12:25pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "1:50pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2693.70",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A319",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "8:05am",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "9:30am"
+            }
+        ],
+        "plane code": "319"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2890.68",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Airbus A319-321",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "3:25pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "4:55pm"
+            }
+        ],
+        "plane code": "32S"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2890.68",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Airbus A319-321",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "8:00pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "9:30pm"
+            }
+        ],
+        "plane code": "32S"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2890.68",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Airbus A319-321",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "10:20am",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "11:50am"
+            }
+        ],
+        "plane code": "32S"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2890.68",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Airbus A319-321",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "8:20am",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "9:50am"
+            }
+        ],
+        "plane code": "32S"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2890.68",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Airbus A319-321",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "6:00pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "7:30pm"
+            }
+        ],
+        "plane code": "32S"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2890.68",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "8:50am",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "10:15am"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2890.68",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Airbus A319-321",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "4:25pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "5:55pm"
+            }
+        ],
+        "plane code": "32S"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2890.68",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Airbus A319-321",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "6:15am",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "7:45am"
+            }
+        ],
+        "plane code": "32S"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "2913.99",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "Boeing 737-900",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "3:35pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "5:00pm"
+            }
+        ],
+        "plane code": "739"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "864.09",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "9:40pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "11:00pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "864.09",
+        "departure": ", Bangkok",
+        "arrival": ", Phuket",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "9:25pm",
+                "arrival_airport": "Phuket, Thailand (HKT-Phuket Intl.)",
+                "arrival_time": "10:45pm"
+            }
+        ],
+        "plane code": ""
+    }
+]

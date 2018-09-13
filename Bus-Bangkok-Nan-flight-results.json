@@ -1,0 +1,162 @@
+[
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "06:00 AM (06:00)",
+        "arrivalTime": "04:00 PM (16:00)",
+        "pickup": "Bangkok Morchit Bus Terminal",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "488"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "06:30 AM (06:30)",
+        "arrivalTime": "04:00 PM (16:00)",
+        "pickup": "Sombat Tour Vibhavadi Office",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "488"
+    },
+    {
+        "name": "New Viriyayanyont Tour",
+        "departureTime": "07:00 AM (07:00)",
+        "arrivalTime": "09:00 PM (21:00)",
+        "pickup": "Bangkok Morchit Bus Terminal",
+        "dropoff": "New Viriya Yan Yon Tour Offce (Ban Tha Ton)",
+        "price": "601"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "03:00 PM (15:00)",
+        "arrivalTime": "02:00 AM (02:00)",
+        "pickup": "Sombat Tour Vibhavadi Office",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "569"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "04:00 PM (16:00)",
+        "arrivalTime": "02:00 AM (02:00)",
+        "pickup": "Bangkok Morchit Bus Terminal",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "569"
+    },
+    {
+        "name": "New Viriyayanyont Tour",
+        "departureTime": "04:30 PM (16:30)",
+        "arrivalTime": "06:30 AM (06:30)",
+        "pickup": "Bangkok Morchit Bus Terminal",
+        "dropoff": "New Viriya Yan Yon Tour Offce (Ban Tha Ton)",
+        "price": "701"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "06:50 PM (18:50)",
+        "arrivalTime": "04:20 AM (04:20)",
+        "pickup": "Bangkok Morchit Bus Terminal",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "488"
+    },
+    {
+        "name": "Sombat (Supreme)",
+        "departureTime": "07:00 PM (19:00)",
+        "arrivalTime": "",
+        "pickup": "Bangkok Sombat Tour Vibhavadi Bus Station",
+        "dropoff": "Chian Mai Bus Terminal",
+        "price": "759"
+    },
+    {
+        "name": "Thai Sriram Bus Express",
+        "departureTime": "08:00 PM (20:00)",
+        "arrivalTime": "",
+        "pickup": "Bangkok (Khao San Road)",
+        "dropoff": "Chiang Mai (Sunny Hostel)",
+        "price": "700"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "08:00 PM (20:00)",
+        "arrivalTime": "07:00 AM (07:00)",
+        "pickup": "Bangkok Morchit Bus Terminal",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "759"
+    },
+    {
+        "name": "Siam First Tour",
+        "departureTime": "08:02 PM (20:02)",
+        "arrivalTime": "06:02 AM (06:02)",
+        "pickup": "Bangkok Morchit Bus Terminal",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "569"
+    },
+    {
+        "name": "Siam First Tour",
+        "departureTime": "08:02 PM (20:02)",
+        "arrivalTime": "05:45 AM (05:45)",
+        "pickup": "Bangkok Morchit Bus Terminal",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "569"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "08:20 PM (20:20)",
+        "arrivalTime": "07:20 AM (07:20)",
+        "pickup": "Sombat Tour Vibhavadi Office",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "759"
+    },
+    {
+        "name": "New Viriyayanyont Tour",
+        "departureTime": "08:20 PM (20:20)",
+        "arrivalTime": "06:20 AM (06:20)",
+        "pickup": "Bangkok Morchit Bus Terminal",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "569"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "08:30 PM (20:30)",
+        "arrivalTime": "07:00 AM (07:00)",
+        "pickup": "Sombat Tour Vibhavadi Office",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "759"
+    },
+    {
+        "name": "Siam First Tour",
+        "departureTime": "08:32 PM (20:32)",
+        "arrivalTime": "06:02 AM (06:02)",
+        "pickup": "Siam First Tour. (Street Prachaniwet 1)",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "569"
+    },
+    {
+        "name": "Siam First Tour",
+        "departureTime": "08:32 PM (20:32)",
+        "arrivalTime": "06:05 AM (06:05)",
+        "pickup": "Bangkok Morchit Bus Terminal",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "488"
+    },
+    {
+        "name": "Budsarakam Tour",
+        "departureTime": "08:40 PM (20:40)",
+        "arrivalTime": "06:55 AM (06:55)",
+        "pickup": "Bangkok Morchit Bus Terminal",
+        "dropoff": "Chiang Mai Arcade Bus Terminal",
+        "price": "569"
+    },
+    {
+        "name": "Sombat (Supreme)",
+        "departureTime": "09:10 PM (21:10)",
+        "arrivalTime": "",
+        "pickup": "Bangkok Sombat Tour Vibhavadi Bus Station",
+        "dropoff": "Chian Mai Bus Terminal",
+        "price": "759"
+    },
+    {
+        "name": "Sombat (Supreme)",
+        "departureTime": "09:19 PM (21:19)",
+        "arrivalTime": "",
+        "pickup": "Bangkok Sombat Tour Vibhavadi Bus Station",
+        "dropoff": "Chiang Mai (Wiang Ping)",
+        "price": "759"
+    }
+]

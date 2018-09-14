@@ -1,0 +1,632 @@
+[
+    {
+        "stops": "Nonstop",
+        "ticket price": "46.77",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 10 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "Boeing 737-900",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "9:10pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "10:20pm"
+            }
+        ],
+        "plane code": "739"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "46.77",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 30 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "Boeing 737-800",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "10:25pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "11:55pm"
+            }
+        ],
+        "plane code": "738"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "46.77",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 10 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "Boeing 737-900",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "6:45pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "7:55pm"
+            }
+        ],
+        "plane code": "739"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "47.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 10 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "9:50pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "11:00pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "47.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 10 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "9:15pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "10:25pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "47.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "6:10pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "7:25pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "47.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "7:25pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "8:40pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "50.77",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 10 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "Boeing 737-900",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "4:50pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "6:00pm"
+            }
+        ],
+        "plane code": "739"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "55.43",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "1:55pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "3:10pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "55.43",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "2:40pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "3:55pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "55.43",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "3:45pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "5:00pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "55.77",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "Boeing 737-800",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "2:55pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "4:15pm"
+            }
+        ],
+        "plane code": "738"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "61.77",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "1:00pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "2:15pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "62.52",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "12:50pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "2:05pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "67.77",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "Boeing 737-800",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "11:15am",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "12:35pm"
+            }
+        ],
+        "plane code": "738"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "71.39",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "5:10am",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "6:25am"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "71.39",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "8:30am",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "9:45am"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "71.39",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 10 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "6:50am",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "8:00am"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "73.77",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 25 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "Boeing 737-900",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "10:35am",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "12:00pm"
+            }
+        ],
+        "plane code": "739"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "77.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "6:55pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "8:15pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "77.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "9:35pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "10:55pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "77.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "4:55pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "6:15pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "79.77",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "Thai Lion Mantari",
+        "plane": "Boeing 737-900",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "8:55am",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "10:10am"
+            }
+        ],
+        "plane code": "739"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "80.25",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "9:15am",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "10:30am"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "80.25",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 15 minutes",
+        "airline": "AirAsia with baggage",
+        "plane": "",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (DMK-Don Mueang Intl.)",
+                "departure_time": "11:50am",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "1:05pm"
+            }
+        ],
+        "plane code": ""
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "81.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "12:25pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "1:45pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "85.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Airbus A319-321",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "5:50pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "7:10pm"
+            }
+        ],
+        "plane code": "32S"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "85.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Airbus A319-321",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "9:40pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "11:00pm"
+            }
+        ],
+        "plane code": "32S"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "85.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Airbus A319-321",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "4:20pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "5:40pm"
+            }
+        ],
+        "plane code": "32S"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "85.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Hahn Air Systems",
+        "plane": "Airbus A319-321",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "8:25pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "9:45pm"
+            }
+        ],
+        "plane code": "32S"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "87.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Bangkok Airways",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "2:30pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "3:50pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "91.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Thai Airways International",
+        "plane": "Boeing 777",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "6:40pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "8:00pm"
+            }
+        ],
+        "plane code": "777"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "94.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Thai Airways International",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "2:30pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "3:50pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "94.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Thai Airways International",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "4:55pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "6:15pm"
+            }
+        ],
+        "plane code": "320"
+    },
+    {
+        "stops": "Nonstop",
+        "ticket price": "94.05",
+        "departure": ", Bangkok",
+        "arrival": ", Chiang Mai",
+        "flight duration": "0 days 1 hours 20 minutes",
+        "airline": "Thai Airways International",
+        "plane": "Airbus A320",
+        "timings": [
+            {
+                "departure_airport": "Bangkok, Thailand (BKK-Suvarnabhumi Intl.)",
+                "departure_time": "12:25pm",
+                "arrival_airport": "Chiang Mai, Thailand (CNX-Chiang Mai Intl.)",
+                "arrival_time": "1:45pm"
+            }
+        ],
+        "plane code": "320"
+    }
+]

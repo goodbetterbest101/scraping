@@ -8,14 +8,15 @@ from collections import OrderedDict
 import argparse
 
 def parse(source,destination,date):
-    for i in range(1):
+    for i in range(5):
         try:
-            url = "https://www.busonlineticket.co.th/booking/bangkok-to-chiang-mai-bus-tickets".format(source,destination,date)
-            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'}
-            response = requests.get(url)
-            # with open('res.text','w') as fw:
-            #  	fw.write(response.text)
+            sou = source.replace('-',' ')
+            des = destination.replace('-',' ')
 
+            data = {'ddOrgFrom':sou,'ddOrgTo':des,'deptdate':date,'rtndate':'2018-09-15','pax':'1','way':'1','type':'Bus','sbf':'Popular'}
+            url = "https://www.busonlineticket.co.th/booking/{0}-to-{1}-bus-tickets".format(source.lower(),destination.lower())
+            headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'}
+            response = requests.post(url,data=data)
             parser = html.fromstring(response.text)
             # json_data_xpath = parser.xpath('//*[@id="subtab1"]/table/tbody/tr[1]//text()')
             data_xpath = parser.xpath('//*[@id="subtab1"]/table/tbody//text()')
@@ -83,22 +84,7 @@ def parse(source,destination,date):
                         print('======================================\n')
                         lists.append(bus_info)
                 count += 1
-
-            # bus_data = json.dumps(lists)
-
-            # json_bus_data = json.loads(bus_data)
-            # print(lists)
-
-            with open('Bus-%s-%s-flight-results.json'%(source,destination),'w') as fp:
-             	json.dump(lists,fp,indent = 4)
-
-            # raw_json =json.loads(json_data_xpath[0] if json_data_xpath else '')
-            #
-            #
-            # flight_data = json.loads(raw_json["content"])
-            # flight_info  = OrderedDict()
-            #
-            # lists=[]
+            return lists
 
 
         except ValueError:
@@ -110,17 +96,21 @@ if __name__=="__main__":
     argparser = argparse.ArgumentParser()
     argparser.add_argument('source',help = 'Source airport code')
     argparser.add_argument('destination',help = 'Destination airport code')
-    argparser.add_argument('date',help = 'MM/DD/YYYY')
+    argparser.add_argument('date',help = 'YYYY-MM-DD')
 
     args = argparser.parse_args()
     source = args.source
     destination = args.destination
     date = args.date
-    # print(source)
 
+    # Example URL
+    # https://www.busonlineticket.co.th/booking/bangkok-to-chiang-mai-bus-tickets
+
+    # Example input
+    # python nakhon.py Bangkok Chiang-mai 2018-10-01
 
     print ("Fetching Bus details")
     scraped_data = parse(source,destination,date)
-    # print ("Writing data to output file")
-    # with open('%s-%s-flight-results.json'%(source,destination),'w') as fp:
-    #  	json.dump(scraped_data,fp,indent = 4)
+    print ("Writing data to output file")
+    with open('Bus-%s-%s-results.json'%(source,destination),'w') as fp:
+        json.dump(scraped_data,fp,indent = 4)

@@ -8,13 +8,12 @@ from collections import OrderedDict
 import argparse
 
 def parse(source,destination,date):
-    for i in range(1):
+    for i in range(5):
         try:
             url = "https://www.expedia.com/Flights-Search?trip=oneway&leg1=from%3A{0}%2Cto%3A{1}%2C%2Cdeparture%3A{2}TANYT&passengers=adults%3A1%2Cchildren%3A0%2Cseniors%3A0%2Cinfantinlap%3AY&mode=search".format(source,destination,date)
-            # url = "https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F01%2F2018&mode=search&trip=oneway&leg1=from%3ABangkok%2C+Thailand+%28BKK-All+Airports%29%2Cto%3ALampang%2C+Thailand+%28LPT%29%2Cdeparture%3A10%2F01%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY"
-            # url = "https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F01%2F2018&mode=search&trip=oneway&leg1=from%3ABangkok%2C+Thailand+%28BKK-All+Airports%29%2Cto%3AKrabi%2C+Thailand+%28KBV-Krabi+Intl.%29%2Cdeparture%3A10%2F01%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY"
             headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'}
             response = requests.get(url)
+            print(response.url)
             parser = html.fromstring(response.text)
             json_data_xpath = parser.xpath("//script[@id='cachedResultsJson']/text()")
             raw_json =json.loads(json_data_xpath[0] if json_data_xpath else '')
@@ -27,7 +26,7 @@ def parse(source,destination,date):
 
             for i in flight_data['legs'].keys():
                 total_distance =  flight_data['legs'][i].get("formattedDistance",'')
-                exact_price = flight_data['legs'][i].get('price',{}).get('totalPriceAsDecimal','') * 32.83
+                exact_price = flight_data['legs'][i].get('price',{}).get('totalPriceAsDecimal','')
 
                 departure_location_airport = flight_data['legs'][i].get('departureLocation',{}).get('airportLongName','')
                 departure_location_city = flight_data['legs'][i].get('departureLocation',{}).get('airportCity','')
@@ -102,14 +101,19 @@ if __name__=="__main__":
 
     args = argparser.parse_args()
     source = args.source
-    destination = args.destination
+    destination = args.destination.replace('-','+') # whitespce replace by '+'
     date = args.date
-    # print(source)
 
+    # Example URL
+    # url = "https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F01%2F2018&mode=search&trip=oneway&leg1=from%3ABangkok%2C+Thailand+%28BKK-All+Airports%29%2Cto%3ALampang%2C+Thailand+%28LPT%29%2Cdeparture%3A10%2F01%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY"
+    # url = "https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F01%2F2018&mode=search&trip=oneway&leg1=from%3ABangkok%2C+Thailand+%28BKK-All+Airports%29%2Cto%3AKrabi%2C+Thailand+%28KBV-Krabi+Intl.%29%2Cdeparture%3A10%2F01%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY"
+    # url = "https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F01%2F2018&mode=search&trip=oneway&leg1=from%3ABangkok%2C+Thailand+%28BKK-All+Airports%29%2Cto%3AChiang+Mai%2Cdeparture%3A10%2F01%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY"
+
+    # Example input
+    # python expedia.py Bangkok Chiang-Mai 10/13/2018
 
     print ("Fetching flight details")
     scraped_data = parse(source,destination,date)
-    # print(type(scraped_data))
     print ("Writing data to output file")
     with open('%s-%s-flight-results.json'%(source,destination),'w') as fp:
      	json.dump(scraped_data,fp,indent = 4)

@@ -1,0 +1,130 @@
+[
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "10:00 AM (10:00)",
+        "arrivalTime": "08:30 PM (20:30)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Bangkok Morchit Bus Terminal",
+        "price": "488"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "10:00 AM (10:00)",
+        "arrivalTime": "08:00 PM (20:00)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Sombat Tour Vibhavadi Office",
+        "price": "488"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "06:35 PM (18:35)",
+        "arrivalTime": "04:05 AM (04:05)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Bangkok Morchit Bus Terminal",
+        "price": "488"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "06:35 PM (18:35)",
+        "arrivalTime": "03:35 AM (03:35)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Sombat Tour Vibhavadi Office",
+        "price": "488"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "07:15 PM (19:15)",
+        "arrivalTime": "04:45 AM (04:45)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Bangkok Morchit Bus Terminal",
+        "price": "569"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "07:15 PM (19:15)",
+        "arrivalTime": "04:15 AM (04:15)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Sombat Tour Vibhavadi Office",
+        "price": "569"
+    },
+    {
+        "name": "Lignite Tour (Northern Thailand)",
+        "departureTime": "07:30 PM (19:30)",
+        "arrivalTime": "05:00 AM (05:00)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Bangkok Morchit Bus Terminal",
+        "price": "569"
+    },
+    {
+        "name": "Thai Sriram Bus Express",
+        "departureTime": "08:00 PM (20:00)",
+        "arrivalTime": "",
+        "pickup": "Chiang Mai (Sunny Hostel)",
+        "dropoff": "Bangkok (Khao San Road)",
+        "price": "700"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "08:00 PM (20:00)",
+        "arrivalTime": "05:30 AM (05:30)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Bangkok Morchit Bus Terminal",
+        "price": "759"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "08:00 PM (20:00)",
+        "arrivalTime": "06:30 AM (06:30)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Bangkok Morchit Bus Terminal",
+        "price": "488"
+    },
+    {
+        "name": "Budsarakam Tour",
+        "departureTime": "08:00 PM (20:00)",
+        "arrivalTime": "06:00 AM (06:00)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Bangkok Morchit Bus Terminal",
+        "price": "569"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "08:00 PM (20:00)",
+        "arrivalTime": "05:00 AM (05:00)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Sombat Tour Vibhavadi Office",
+        "price": "759"
+    },
+    {
+        "name": "Bangkok Busline",
+        "departureTime": "08:00 PM (20:00)",
+        "arrivalTime": "06:00 AM (06:00)",
+        "pickup": "Chiang Mai Arcade Bus Terminal",
+        "dropoff": "Sombat Tour Vibhavadi Office",
+        "price": "488"
+    },
+    {
+        "name": "Sombat (Supreme)",
+        "departureTime": "09:00 PM (21:00)",
+        "arrivalTime": "",
+        "pickup": "Chian Mai Bus Terminal",
+        "dropoff": "Bangkok Sombat Tour Vibhavadi Bus Station",
+        "price": "759"
+    },
+    {
+        "name": "Sombat (Supreme)",
+        "departureTime": "09:30 PM (21:30)",
+        "arrivalTime": "",
+        "pickup": "Chiang Mai (Wiang Ping)",
+        "dropoff": "Bangkok Sombat Tour Vibhavadi Bus Station",
+        "price": "759"
+    },
+    {
+        "name": "Sombat (Supreme)",
+        "departureTime": "09:50 PM (21:50)",
+        "arrivalTime": "",
+        "pickup": "Chian Mai Bus Terminal",
+        "dropoff": "Bangkok Sombat Tour Vibhavadi Bus Station",
+        "price": "759"
+    }
+]

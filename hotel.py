@@ -6,35 +6,81 @@ import requests
 from lxml import html
 from collections import OrderedDict
 import argparse
+import time
+from selenium import webdriver
+from selenium.webdriver import ChromeOptions
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support.ui import WebDriverWait
 
 def parse(source,destination,date):
     for i in range(1):
         try:
-            url = "https://www.hotels.com/search.do?&locale=en_US&q-destination=Chiang%20Mai,%20Thailand&q-check-in=2018-12-07&q-check-out=2018-12-08&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
+            url = "https://www.hotels.com/search.do?&locale=en_TH&q-destination=Chiang%20Mai,%20Thailand&q-check-in=2018-12-07&q-check-out=2018-12-08&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
             # url = "https://www.expedia.com/Hotel-Search?destination=Krabi%2C+Thailand+%28KBV-Krabi+Intl.%29&startDate=10/01/2018&endDate=10/06/2018&rooms=1&adults=1&sort=deals"
             # headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'}
-            response = requests.get(url)
-            # print(response.json)
+            opts = ChromeOptions()
+            opts.add_experimental_option("detach", True)
+            driver = webdriver.Chrome(executable_path="/Users/khathawut/Documents/My works/Project/expedia/chromedriver",chrome_options=opts) 
+            driver.get(url)
+            # time.sleep(0.3)
+            elem = driver.find_element_by_tag_name("body")
+            print('1')
+            no_of_pagedowns = 10
+            while no_of_pagedowns:
+                print('while')
+                elem.send_keys(Keys.PAGE_DOWN)
+                time.sleep(0.1)
+                no_of_pagedowns-=1
 
-            parser = html.fromstring(response.text)
-            name_xpath = parser.xpath('//*[@id="listings"]/ol') 
-            # name_xpath = parser.xpath('//*[@id="listings"]/ol/li[1]/article/div/div[1]/h3/a')
-            test = html.tostring(name_xpath[0])
+            print('finish while and wait for 25 sec')
 
-            hotel_list = str(test) 
-            hotel_arr = hotel_list.split('<li class="hotel')
+            driver.implicitly_wait(25) # seconds
+
+            print('pass 25 sec!')
             
-            # print(len(hotel_arr))
-            for i in range(len(hotel_arr)):
-                print(i)
-                hotel_arr[i] = '<li class="hotel' + hotel_arr[i]
+
+            post_elems = driver.find_elements_by_class_name("listings")
+
+            for post in post_elems:
+                print('for')
+                print(post.text)
+
+            # driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+            # response = requests.get(url)
+            # print(driver.content)
+
+            # parser = html.fromstring(response.text)
+            # name_xpath = parser.xpath('//*[@id="listings"]/ol') 
+            # # name_xpath = parser.xpath('//*[@id="listings"]/ol/li[1]/article/div/div[1]/h3/a')
+            # test = html.tostring(name_xpath[0])
+
+            # hotel_list = str(test) 
+            # hotel_arr = hotel_list.split('<li class="hotel')
+            
+            # # print(hotel_arr[1])
+
+            # for i in range(len(hotel_arr)):
+            #     if(i != 0):
+            #         # print(i)
+            #         hotel_arr[i] = '<li class="hotel' + hotel_arr[i]
+            #         hotel_parser = html.fromstring(hotel_arr[i])
+            #         # print(hotel_parser)
+            #         name_hotel_xpath = hotel_parser.xpath('//li//article//div//div//h3//a')
+                    
+            #         name_hotel = str(html.tostring(name_hotel_xpath[0]))
+            #         name_hotel = name_hotel.split('>')
+        
+            #         print(name_hotel[len(name_hotel)-2])
+            #         print('=====')
+            #         # print(html.tostring(name_hotel_xpath[0]))
+
             
 
             # with open('detail-hotel7.html','w') as fp:
      	    #     fp.write(str(test))
-            print(hotel_arr[1])
-            print('=================')
-            print(hotel_arr[2])
+            # print(hotel_arr[1])
+            # print('=================')
+            # print(hotel_arr[2])
             # print(parser)
             # print(test)
 
@@ -43,72 +89,6 @@ def parse(source,destination,date):
 
             # flight_data = json.loads(raw_json["content"])
             # flight_info  = OrderedDict()
-
-            # lists=[]
-
-            # for i in flight_data['legs'].keys():
-            #     total_distance =  flight_data['legs'][i].get("formattedDistance",'')
-            #     exact_price = flight_data['legs'][i].get('price',{}).get('totalPriceAsDecimal','')
-
-            #     departure_location_airport = flight_data['legs'][i].get('departureLocation',{}).get('airportLongName','')
-            #     departure_location_city = flight_data['legs'][i].get('departureLocation',{}).get('airportCity','')
-            #     departure_location_airport_code = flight_data['legs'][i].get('departureLocation',{}).get('airportCode','')
-
-            #     arrival_location_airport = flight_data['legs'][i].get('arrivalLocation',{}).get('airportLongName','')
-            #     arrival_location_airport_code = flight_data['legs'][i].get('arrivalLocation',{}).get('airportCode','')
-            #     arrival_location_city = flight_data['legs'][i].get('arrivalLocation',{}).get('airportCity','')
-            #     airline_name = flight_data['legs'][i].get('carrierSummary',{}).get('airlineName','')
-
-            #     no_of_stops = flight_data['legs'][i].get("stops","")
-            #     flight_duration = flight_data['legs'][i].get('duration',{})
-            #     flight_hour = flight_duration.get('hours','')
-            #     flight_minutes = flight_duration.get('minutes','')
-            #     flight_days = flight_duration.get('numOfDays','')
-
-            #     if no_of_stops==0:
-            #         stop = "Nonstop"
-            #     else:
-            #         stop = str(no_of_stops)+' Stop'
-
-            #     total_flight_duration = "{0} days {1} hours {2} minutes".format(flight_days,flight_hour,flight_minutes)
-            #     departure = departure_location_airport+", "+departure_location_city
-            #     arrival = arrival_location_airport+", "+arrival_location_city
-            #     carrier = flight_data['legs'][i].get('timeline',[])[0].get('carrier',{})
-            #     plane = carrier.get('plane','')
-            #     plane_code = carrier.get('planeCode','')
-            #     formatted_price = "{0:.2f}".format(exact_price)
-
-            #     if not airline_name:
-            #         airline_name = carrier.get('operatedBy','')
-
-            #     timings = []
-            #     for timeline in  flight_data['legs'][i].get('timeline',{}):
-            #         if 'departureAirport' in timeline.keys():
-            #             departure_airport = timeline['departureAirport'].get('longName','')
-            #             departure_time = timeline['departureTime'].get('time','')
-            #             arrival_airport = timeline.get('arrivalAirport',{}).get('longName','')
-            #             arrival_time = timeline.get('arrivalTime',{}).get('time','')
-            #             flight_timing = {
-            #             'departure_airport':departure_airport,
-            #             'departure_time':departure_time,
-            #             'arrival_airport':arrival_airport,
-            #             'arrival_time':arrival_time
-            #             }
-            #             timings.append(flight_timing)
-
-            #     flight_info={'stops':stop,
-            #             'ticket price':formatted_price,
-            #             'departure':departure,
-            #             'arrival':arrival,
-            #             'flight duration':total_flight_duration,
-            #             'airline':airline_name,
-            #             'plane':plane,
-            #             'timings':timings,
-            #             'plane code':plane_code
-            #             }
-            #     lists.append(flight_info)
-            # sortedlist = sorted(lists, key=lambda k: k['ticket price'],reverse=False)
-            # return sortedlist
 
         except ValueError:
             print ("Rerying...")

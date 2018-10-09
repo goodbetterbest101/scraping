@@ -1,0 +1,86 @@
+[
+    {
+        "name": "The 51 Hometel(Last booked 1 day ago)",
+        "address": "5/1 Soi Arnuban 2 Chotana Road, Chang Phuek, Mueang, Chiang Mai, Chiang Mai, 50300, Thailand",
+        "rating": "3-starChang Phueak",
+        "near": "2.9 km to City centre, 3.1 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "Panda House Chiang Mai",
+        "address": "427/4 Wichayanon Rd, Chaing-Moi, Chiang Mai, Chiang Mai, 50300, Thailand",
+        "rating": "3-starChang Moi",
+        "near": "0.9 km to City centre, 1.1 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "Eastin Tan Chiang Mai",
+        "address": "165 Huay Kaew Road, T. Suthep, Muang Chiang Mai, Chiang Mai, Chiang Mai, 50200, Thailand",
+        "rating": "4-starHuay Kaew",
+        "near": "3.6 km to City centre, 3.9 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "Rinn Boutique House",
+        "address": "52/1 Nantaram Road,, Chiang Mai, Thailand, 50100, Thailand",
+        "rating": "3-starWua Lai",
+        "near": "1.7 km to City centre, 1.7 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "For U Boutique Hotel",
+        "address": "176/2 Ratchamakka Rd Soi 10, Pra-Sing District, Chiang Mai, 50200, Thailand",
+        "rating": "3.5-starOld City",
+        "near": "2.1 km to City centre, 2.3 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "Trace Hotelistro",
+        "address": "92-94 Thapae Road, Tambon Chang-Moi, Amphoe Mueang, Chiang Mai, 50200, Thailand",
+        "rating": "2.5-starThapae",
+        "near": "0.2 km to City centre, 0.3 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "Shangri-La Hotel Chiang Mai",
+        "address": "89/8 Chang Klan Road, Chiang Mai, Chiang Mai, 50100, Thailand",
+        "rating": "5-starChang Khlan",
+        "near": "1.0 km to City centre, 0.8 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "Nara House Chiang Mai",
+        "address": "67/1/2 Suriyawong Road, Soi 5, Chiang Mai, Chiang Mai, 50100, Thailand",
+        "rating": "2.5-starHai Ya",
+        "near": "1.7 km to City centre, 1.6 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "BED Changkian Hotel - Adults Only",
+        "address": "10/2 Moo 1 Baan Chang Kian, Tambon Chang Puak, Chiang Mai, Chiang Mai, 50300, Thailand",
+        "rating": "3-starChang Phueak",
+        "near": "4.5 km to City centre, 4.7 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "Life Up Resort and Spa",
+        "address": "205 Moo 9, T. Nongharn, San Sai, Chiang Mai , 50290, Thailand",
+        "rating": "3-starSan Sai",
+        "near": "11 km to City centre, 11 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "Wa Lai House",
+        "address": "13 Soi 3 Santisuk Road, T. Changpuek, Chiang Mai, Chiang Mai, 50300, Thailand",
+        "rating": "2.5-starChang Phueak",
+        "near": "2.9 km to City centre, 3.1 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "Zensala Riverpark Resort",
+        "address": "168 Patan Road, T. Patan, A. Mueang, Chiang Mai, Chiang Mai, 50300, Thailand",
+        "rating": "4-starChiang Mai",
+        "near": "3.4 km to City centre, 3.6 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "Vana\u0304 Som",
+        "address": "512/6 Moo 1 Rimtai, Maesa Old Road, Maerim, Mae Rim, Chiang Mai, 50180, Thailand",
+        "rating": "5-starMae Rim",
+        "near": "16 km to City centre, 16 km to Chiang Mai Night Bazaar, "
+    },
+    {
+        "name": "C Room @ Airport by Choktawee",
+        "address": "119/20 Soi Chomchan, Tambon Pa Daet, Amphoe Mueang, Chiang Mai, Chiang Mai, 50000, Thailand",
+        "rating": "3-starChiang Mai",
+        "near": "3.3 km to City centre, 3.3 km to Chiang Mai Night Bazaar, "
+    }
+]

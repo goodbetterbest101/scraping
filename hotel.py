@@ -35,6 +35,7 @@ def parse(source,destination,date):
 
             print('Proxy is ',pxy)
 
+            ### comment here
             prox.proxy_type = ProxyType.MANUAL
             prox.http_proxy = pxy
             prox.socks_proxy = pxy
@@ -56,7 +57,7 @@ def parse(source,destination,date):
                 ,desired_capabilities=capabilities)
 
             driver.get(url)
-            # time.sleep(1)
+            time.sleep(0.5)
             elem = driver.find_element_by_tag_name("body")
             print('1')
             no_of_pagedowns = 6
@@ -76,7 +77,9 @@ def parse(source,destination,date):
 
             post_elems = driver.find_elements_by_class_name("listings")
 
-            detail_hotel = ""
+            #### comment end here
+           
+            detail_hotel = ''
 
             for post in post_elems:
                 print('for')
@@ -84,7 +87,46 @@ def parse(source,destination,date):
                 # print(post.text)
 
             raw_list = detail_hotel.split('\n')
-            print(raw_list[0])
+            list = []
+            name = ''
+            address = ''
+            rating = ''
+            near = ''
+
+            # print(raw_list[0])
+            count = 0
+            for data in raw_list:
+                if data != 'Deal of the Day' and data != 'Today’s Best Deal' and data != 'Save 50%Hurry, ends soon!':
+                    dataStr = str(data)
+                    if count == 0:
+                        name = data
+                        count += 1
+                    elif count == 1 and dataStr[0] >= '0' and dataStr[0] <= '9':
+                        address = data
+                        count += 1
+                    elif count == 2 and dataStr[0] >= '0' and dataStr[0] <= '9':
+                        rating = data
+                        count += 1
+                    elif count == 3 or count == 4:
+                        near = near + data + ', '
+                        count += 1
+                    elif data == 'Choose Room':
+                        info_hotel = {
+                            'name': name,
+                            'address': address,
+                            'rating': rating,
+                            'near': near,
+                        }
+                        near = ''
+                        count = 0
+                        list.append(info_hotel)
+
+            # print(list)
+            with open('hotel-results-2.json','w') as fp:
+             	json.dump(list,fp,indent = 4)
+
+                        
+                       
 
         except ValueError:
             print ("Rerying...")

@@ -11,10 +11,13 @@ from selenium import webdriver
 from selenium.webdriver import ChromeOptions
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.chrome.options import DesiredCapabilities
+from selenium.webdriver.common.proxy import Proxy, ProxyType
 
 from urllib.request import Request, urlopen
 from bs4 import BeautifulSoup
 from fake_useragent import UserAgent
+
 import random
 
 
@@ -24,35 +27,64 @@ proxies = [] # Will contain proxies [ip, port]
 def parse(source,destination,date):
     for i in range(1):
         try:
+            prox = Proxy()
+            proxy_index = random_proxy()
+            proxy = proxies[proxy_index]
+
+            pxy = proxy['ip'] + ':' + proxy['port']
+
+            print('Proxy is ',pxy)
+
+            prox.proxy_type = ProxyType.MANUAL
+            prox.http_proxy = pxy
+            prox.socks_proxy = pxy
+            prox.ssl_proxy = pxy
+
+            capabilities = webdriver.DesiredCapabilities.CHROME
+            prox.add_to_capabilities(capabilities)
+
+            ###########################################
+
             url = "https://www.hotels.com/search.do?&locale=en_TH&q-destination=Chiang%20Mai,%20Thailand&q-check-in=2018-12-07&q-check-out=2018-12-08&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
             # url = "https://www.expedia.com/Hotel-Search?destination=Krabi%2C+Thailand+%28KBV-Krabi+Intl.%29&startDate=10/01/2018&endDate=10/06/2018&rooms=1&adults=1&sort=deals"
             # headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'}
             opts = ChromeOptions()
             opts.add_experimental_option("detach", True)
-            driver = webdriver.Chrome(executable_path="/Users/khathawut/Documents/My works/Project/expedia/chromedriver",chrome_options=opts) 
+            driver = webdriver.Chrome(
+                executable_path="/Users/khathawut/Documents/My works/Project/expedia/chromedriver"
+                ,chrome_options=opts
+                ,desired_capabilities=capabilities)
+
             driver.get(url)
-            # time.sleep(0.3)
+            # time.sleep(1)
             elem = driver.find_element_by_tag_name("body")
             print('1')
-            no_of_pagedowns = 10
+            no_of_pagedowns = 6
             while no_of_pagedowns:
                 print('while')
                 elem.send_keys(Keys.PAGE_DOWN)
-                time.sleep(0.1)
+                time.sleep(0.25)
                 no_of_pagedowns-=1
 
-            print('finish while and wait for 25 sec')
+            # print('finish while and wait for 50 sec')
 
-            driver.implicitly_wait(25) # seconds
+            # driver.implicitly_wait(50) # seconds
 
-            print('pass 25 sec!')
-            
+            # print('pass 50 sec!')
+
+            time.sleep(10)
 
             post_elems = driver.find_elements_by_class_name("listings")
 
+            detail_hotel = ""
+
             for post in post_elems:
                 print('for')
-                print(post.text)
+                detail_hotel = post.text
+                # print(post.text)
+
+            raw_list = detail_hotel.split('\n')
+            print(raw_list[0])
 
         except ValueError:
             print ("Rerying...")
@@ -90,11 +122,6 @@ if __name__=="__main__":
     date = args.date
 
     getProxy()
-    # Choose a random proxy
-    proxy_index = random_proxy()
-    proxy = proxies[proxy_index]
-
-    print('proxy is ',proxy)
 
     # Example URL
     # url = "https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F01%2F2018&mode=search&trip=oneway&leg1=from%3ABangkok%2C+Thailand+%28BKK-All+Airports%29%2Cto%3ALampang%2C+Thailand+%28LPT%29%2Cdeparture%3A10%2F01%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY"

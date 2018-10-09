@@ -12,6 +12,15 @@ from selenium.webdriver import ChromeOptions
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 
+from urllib.request import Request, urlopen
+from bs4 import BeautifulSoup
+from fake_useragent import UserAgent
+import random
+
+
+ua = UserAgent() # From here we generate a random user agent
+proxies = [] # Will contain proxies [ip, port]
+
 def parse(source,destination,date):
     for i in range(1):
         try:
@@ -45,55 +54,29 @@ def parse(source,destination,date):
                 print('for')
                 print(post.text)
 
-            # driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
-            # response = requests.get(url)
-            # print(driver.content)
-
-            # parser = html.fromstring(response.text)
-            # name_xpath = parser.xpath('//*[@id="listings"]/ol') 
-            # # name_xpath = parser.xpath('//*[@id="listings"]/ol/li[1]/article/div/div[1]/h3/a')
-            # test = html.tostring(name_xpath[0])
-
-            # hotel_list = str(test) 
-            # hotel_arr = hotel_list.split('<li class="hotel')
-            
-            # # print(hotel_arr[1])
-
-            # for i in range(len(hotel_arr)):
-            #     if(i != 0):
-            #         # print(i)
-            #         hotel_arr[i] = '<li class="hotel' + hotel_arr[i]
-            #         hotel_parser = html.fromstring(hotel_arr[i])
-            #         # print(hotel_parser)
-            #         name_hotel_xpath = hotel_parser.xpath('//li//article//div//div//h3//a')
-                    
-            #         name_hotel = str(html.tostring(name_hotel_xpath[0]))
-            #         name_hotel = name_hotel.split('>')
-        
-            #         print(name_hotel[len(name_hotel)-2])
-            #         print('=====')
-            #         # print(html.tostring(name_hotel_xpath[0]))
-
-            
-
-            # with open('detail-hotel7.html','w') as fp:
-     	    #     fp.write(str(test))
-            # print(hotel_arr[1])
-            # print('=================')
-            # print(hotel_arr[2])
-            # print(parser)
-            # print(test)
-
-            # raw_json =json.loads(json_data_xpath[0] if json_data_xpath else '')
-
-
-            # flight_data = json.loads(raw_json["content"])
-            # flight_info  = OrderedDict()
-
         except ValueError:
             print ("Rerying...")
 
             return {"error":"failed to process the page",}
+
+def getProxy():
+    # Retrieve latest proxies
+    proxies_req = Request('https://www.sslproxies.org/')
+    proxies_req.add_header('User-Agent', ua.random)
+    proxies_doc = urlopen(proxies_req).read().decode('utf8')
+
+    soup = BeautifulSoup(proxies_doc, 'html.parser')
+    proxies_table = soup.find(id='proxylisttable')
+
+    # Save proxies in the array
+    for row in proxies_table.tbody.find_all('tr'):
+        proxies.append({
+        'ip':   row.find_all('td')[0].string,
+        'port': row.find_all('td')[1].string
+    })
+
+def random_proxy():
+  return random.randint(0, len(proxies) - 1)
 
 if __name__=="__main__":
     argparser = argparse.ArgumentParser()
@@ -106,6 +89,13 @@ if __name__=="__main__":
     destination = args.destination.replace('-','+') # whitespce replace by '+'
     date = args.date
 
+    getProxy()
+    # Choose a random proxy
+    proxy_index = random_proxy()
+    proxy = proxies[proxy_index]
+
+    print('proxy is ',proxy)
+
     # Example URL
     # url = "https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F01%2F2018&mode=search&trip=oneway&leg1=from%3ABangkok%2C+Thailand+%28BKK-All+Airports%29%2Cto%3ALampang%2C+Thailand+%28LPT%29%2Cdeparture%3A10%2F01%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY"
     # url = "https://www.expedia.com/Flights-Search?flight-type=on&starDate=10%2F01%2F2018&mode=search&trip=oneway&leg1=from%3ABangkok%2C+Thailand+%28BKK-All+Airports%29%2Cto%3AKrabi%2C+Thailand+%28KBV-Krabi+Intl.%29%2Cdeparture%3A10%2F01%2F2018TANYT&passengers=children%3A0%2Cadults%3A1%2Cseniors%3A0%2Cinfantinlap%3AY"
@@ -114,7 +104,7 @@ if __name__=="__main__":
     # Example input
     # python hotel.py Bangkok Chiang-Mai 10/13/2018
 
-    print ("Fetching flight details")
+    print ("Fetching hotel details")
     scraped_data = parse(source,destination,date)
     # print ("Writing data to output file")
     # with open('%s-%s-flight-results.json'%(source,destination),'w') as fp:

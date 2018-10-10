@@ -1,0 +1,407 @@
+[
+    {
+        "name": "Aonang Silver Orchid Resort",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 34 reviews",
+        "price": "32"
+    },
+    {
+        "name": "Asura",
+        "address": "New to Expedia! Ko Lanta",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "",
+        "numReview": "",
+        "price": "81"
+    },
+    {
+        "name": "Phi Phi Nice Beach Hotel Hip",
+        "address": "Ko Phi Phi",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.5 out of 5",
+        "numReview": "Based on 100 reviews",
+        "price": "52"
+    },
+    {
+        "name": "Mandawee Resort & Spa",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 2.5 out of 5",
+        "numReview": "Based on 20 reviews",
+        "price": "28"
+    },
+    {
+        "name": "Railay Phutawan Resort",
+        "address": "Krabi",
+        "star": "2.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 140 reviews",
+        "price": "33"
+    },
+    {
+        "name": "Phu Dahla Residences",
+        "address": "New to Expedia! Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "",
+        "numReview": "",
+        "price": "32"
+    },
+    {
+        "name": "Na Sook Resort",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 5.0 out of 5",
+        "numReview": "Based on 4 reviews",
+        "price": "21"
+    },
+    {
+        "name": "Lanta Dareen Resort",
+        "address": "Ko Lanta",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.8 out of 5",
+        "numReview": "Based on 37 reviews",
+        "price": "11"
+    },
+    {
+        "name": "Chaokoh Phi Phi Hotel & Resort",
+        "address": "Ko Phi Phi",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 297 reviews",
+        "price": "53"
+    },
+    {
+        "name": "Mayalay Beach Resort",
+        "address": "Ko Ngai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 48 reviews",
+        "price": "43"
+    },
+    {
+        "name": "Thapwarin Resort",
+        "address": "Ko Ngai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 69 reviews",
+        "price": "48"
+    },
+    {
+        "name": "The Nine Thipthara Klongson Resort",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 172 reviews",
+        "price": "30"
+    },
+    {
+        "name": "Aonang Ayodhaya Beach Resort",
+        "address": "Krabi",
+        "star": "5.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 2.6 out of 5",
+        "numReview": "Based on 126 reviews",
+        "price": "36"
+    },
+    {
+        "name": "Lanta Pavilion Resort",
+        "address": "Ko Lanta",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 5.0 out of 5",
+        "numReview": "Based on 1 review",
+        "price": "36"
+    },
+    {
+        "name": "P.P. Blue Sky Resort",
+        "address": "Ko Phi Phi",
+        "star": "2.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.2 out of 5",
+        "numReview": "Based on 25 reviews",
+        "price": "51"
+    },
+    {
+        "name": "The Hip Resort @ Phi Phi",
+        "address": "New to Expedia! Ko Phi Phi",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 834 reviews",
+        "price": "70"
+    },
+    {
+        "name": "Lanta Palace Resort And Beach Club",
+        "address": "Ko Lanta",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.4 out of 5",
+        "numReview": "Based on 98 reviews",
+        "price": "14"
+    },
+    {
+        "name": "Aonang Regent",
+        "address": "Krabi",
+        "star": "2.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.1 out of 5",
+        "numReview": "Based on 129 reviews",
+        "price": "17"
+    },
+    {
+        "name": "Sunda Resort",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.8 out of 5",
+        "numReview": "Based on 160 reviews",
+        "price": "22"
+    },
+    {
+        "name": "Krabi Bay House",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 5.0 out of 5",
+        "numReview": "Based on 3 reviews",
+        "price": "23"
+    },
+    {
+        "name": "Railay Princess Resort & Spa",
+        "address": "Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 591 reviews",
+        "price": "39"
+    },
+    {
+        "name": "Andamanee Boutique Resort Krabi",
+        "address": "Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 294 reviews",
+        "price": "30"
+    },
+    {
+        "name": "Phi Phi Phu Chalet Resort",
+        "address": "Ko Phi Phi",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.2 out of 5",
+        "numReview": "Based on 26 reviews",
+        "price": "88"
+    },
+    {
+        "name": "Koh Jum Resort",
+        "address": "Nuea Khlong",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 103 reviews",
+        "price": "26"
+    },
+    {
+        "name": "Aonang Fiore Resort",
+        "address": "Top Property Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.5 out of 5",
+        "numReview": "Based on 138 reviews",
+        "price": "59"
+    },
+    {
+        "name": "Aonang All Seasons Beach Resort",
+        "address": "Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.6 out of 5",
+        "numReview": "Based on 185 reviews",
+        "price": "26"
+    },
+    {
+        "name": "Villa Thalanena",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 11 reviews",
+        "price": "186"
+    },
+    {
+        "name": "Golden Bay Cottage",
+        "address": "Ko Lanta",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.2 out of 5",
+        "numReview": "Based on 134 reviews",
+        "price": "36"
+    },
+    {
+        "name": "Aonang Cliff Beach Suites and Villas",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.4 out of 5",
+        "numReview": "Based on 37 reviews",
+        "price": "105"
+    },
+    {
+        "name": "Aonang Cliff Beach Resort",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.1 out of 5",
+        "numReview": "Based on 958 reviews",
+        "price": "53"
+    },
+    {
+        "name": "The Verandah",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 149 reviews",
+        "price": "27"
+    },
+    {
+        "name": "Lanta Nice Beach Resort",
+        "address": "Ko Lanta",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.5 out of 5",
+        "numReview": "Based on 45 reviews",
+        "price": "16"
+    },
+    {
+        "name": "Chada Beach Resort & Spa",
+        "address": "Ko Lanta",
+        "star": "4.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 167 reviews",
+        "price": "61"
+    },
+    {
+        "name": "Klong Jark Bungalow",
+        "address": "Ko Lanta",
+        "star": "2.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.5 out of 5",
+        "numReview": "Based on 4 reviews",
+        "price": "7"
+    },
+    {
+        "name": "AVA Sea Resort",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.1 out of 5",
+        "numReview": "Based on 154 reviews",
+        "price": "55"
+    },
+    {
+        "name": "Thip Residence Boutique Hotel",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 174 reviews",
+        "price": "18"
+    },
+    {
+        "name": "Buri Tara Resort",
+        "address": "Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 312 reviews",
+        "price": "24"
+    },
+    {
+        "name": "BlueSotel Krabi Ao Nang Beach",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.2 out of 5",
+        "numReview": "Based on 642 reviews",
+        "price": "41"
+    },
+    {
+        "name": "Koh Ngai Cliff Beach Resort",
+        "address": "Ko Ngai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 70 reviews",
+        "price": "47"
+    },
+    {
+        "name": "The Pelican Residence & Suite Krabi",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.1 out of 5",
+        "numReview": "Based on 122 reviews",
+        "price": "67"
+    },
+    {
+        "name": "Aonang Mountain View Hotel",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.8 out of 5",
+        "numReview": "Based on 87 reviews",
+        "price": "23"
+    },
+    {
+        "name": "Maneetel Krabi Beachfront",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 43 reviews",
+        "price": "62"
+    },
+    {
+        "name": "Lanta Garden Home",
+        "address": "Ko Lanta",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 93 reviews",
+        "price": "12"
+    },
+    {
+        "name": "Alisea Pool Villas",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 343 reviews",
+        "price": "29"
+    },
+    {
+        "name": "Costa Lanta",
+        "address": "Ko Lanta",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.4 out of 5",
+        "numReview": "Based on 89 reviews",
+        "price": "34"
+    }
+]

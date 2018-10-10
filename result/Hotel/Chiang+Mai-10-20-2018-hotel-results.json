@@ -1,0 +1,407 @@
+[
+    {
+        "name": "The Empress Hotel Chiang Mai",
+        "address": "Chiang Mai",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.4 out of 5",
+        "numReview": "Based on 881 reviews",
+        "price": "43"
+    },
+    {
+        "name": "Enjoy House",
+        "address": "New to Expedia! Mueang Chiang Mai",
+        "star": "2.0 out of 5.0",
+        "near": "",
+        "review": "",
+        "numReview": "",
+        "price": "10"
+    },
+    {
+        "name": "One One Place",
+        "address": "New to Expedia! Chiang Mai",
+        "star": "2.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 3 reviews",
+        "price": "14"
+    },
+    {
+        "name": "Link Mansion",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 3 reviews",
+        "price": "12"
+    },
+    {
+        "name": "Singha Montra Lanna Boutique Style Hotel",
+        "address": "Chiang Mai",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.8 out of 5",
+        "numReview": "Based on 223 reviews",
+        "price": "122"
+    },
+    {
+        "name": "Harmony Resort Hotel",
+        "address": "Chiang Mai",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.4 out of 5",
+        "numReview": "Based on 7 reviews",
+        "price": "33"
+    },
+    {
+        "name": "Baan Sang Singh",
+        "address": "Chiang Mai",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.4 out of 5",
+        "numReview": "Based on 8 reviews",
+        "price": "44"
+    },
+    {
+        "name": "Nanya Hotel Chiang Mai",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.4 out of 5",
+        "numReview": "Based on 88 reviews",
+        "price": "18"
+    },
+    {
+        "name": "Tarin Hotel",
+        "address": "Chiang Mai",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 10 reviews",
+        "price": "20"
+    },
+    {
+        "name": "Dream Living Chiangmai Pool Villa",
+        "address": "San Sai",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "",
+        "numReview": "",
+        "price": "434"
+    },
+    {
+        "name": "The Luna Compass",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.5 out of 5",
+        "numReview": "Based on 2 reviews",
+        "price": "17"
+    },
+    {
+        "name": "Cmor Hotel Chiang Mai by Andacura",
+        "address": "Chiang Mai",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.2 out of 5",
+        "numReview": "Based on 123 reviews",
+        "price": "47"
+    },
+    {
+        "name": "Moto Velo Cabin",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 74 reviews",
+        "price": "44"
+    },
+    {
+        "name": "Hobnob Hostel - Adults Only",
+        "address": "New to Expedia! Chiang Mai",
+        "star": "2.0 out of 5.0",
+        "near": "",
+        "review": "",
+        "numReview": "",
+        "price": "9"
+    },
+    {
+        "name": "Sira Boutique Hotel",
+        "address": "Chiang Mai",
+        "star": "2.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.6 out of 5",
+        "numReview": "Based on 24 reviews",
+        "price": "18"
+    },
+    {
+        "name": "W Hostel",
+        "address": "New to Expedia! Chiang Mai",
+        "star": "2.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.3 out of 5",
+        "numReview": "Based on 4 reviews",
+        "price": "13"
+    },
+    {
+        "name": "Sireeampan Boutique Resort & Spa",
+        "address": "Chiang Mai",
+        "star": "5.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.7 out of 5",
+        "numReview": "Based on 20 reviews",
+        "price": "223"
+    },
+    {
+        "name": "Casa Marocc Hotel by Andacura",
+        "address": "Top Property Chiang Mai",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 103 reviews",
+        "price": "22"
+    },
+    {
+        "name": "Dheva Riverside Colonial Hotel",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 8 reviews",
+        "price": "27"
+    },
+    {
+        "name": "Mayflower Grande Hotel Chiang Mai",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.8 out of 5",
+        "numReview": "Based on 269 reviews",
+        "price": "20"
+    },
+    {
+        "name": "La Villetta Chiang Mai",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 150 reviews",
+        "price": "18"
+    },
+    {
+        "name": "Sakulchai Place Hotel",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 311 reviews",
+        "price": "18"
+    },
+    {
+        "name": "V Heritage Villa Chiang Mai",
+        "address": "New to Expedia! Chiang Mai",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 3 reviews",
+        "price": "41"
+    },
+    {
+        "name": "Onsen At Moncham",
+        "address": "Mae Rim",
+        "star": "5.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 5.0 out of 5",
+        "numReview": "Based on 1 review",
+        "price": "237"
+    },
+    {
+        "name": "C H Hotel",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.5 out of 5",
+        "numReview": "Based on 232 reviews",
+        "price": "20"
+    },
+    {
+        "name": "Ruen Ariya Resort",
+        "address": "Mae Rim",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.5 out of 5",
+        "numReview": "Based on 22 reviews",
+        "price": "23"
+    },
+    {
+        "name": "Thee Chang Thai",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.5 out of 5",
+        "numReview": "Based on 34 reviews",
+        "price": "31"
+    },
+    {
+        "name": "Dorado Boutique Resort",
+        "address": "New to Expedia! Saraphi",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "",
+        "numReview": "",
+        "price": "12"
+    },
+    {
+        "name": "Villa Lantara Chiang Mai",
+        "address": "New to Expedia! Chiang Mai",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 5.0 out of 5",
+        "numReview": "Based on 1 review",
+        "price": "61"
+    },
+    {
+        "name": "Kodchasri Thani Hotel Chiangmai",
+        "address": "Chiang Mai",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 13 reviews",
+        "price": "25"
+    },
+    {
+        "name": "Chiang Mai Thai House",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.5 out of 5",
+        "numReview": "Based on 19 reviews",
+        "price": "18"
+    },
+    {
+        "name": "zZz Crest Chiang Mai",
+        "address": "New to Expedia! Chiang Mai",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "",
+        "numReview": "",
+        "price": "46"
+    },
+    {
+        "name": "Huen Hug Chiang Mai",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.5 out of 5",
+        "numReview": "Based on 35 reviews",
+        "price": "33"
+    },
+    {
+        "name": "Le Pure Hotel Chiangmai",
+        "address": "Chiang Mai",
+        "star": "2.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 29 reviews",
+        "price": "20"
+    },
+    {
+        "name": "The Grand Morocc Residences",
+        "address": "Mae Rim",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.8 out of 5",
+        "numReview": "Based on 4 reviews",
+        "price": "78"
+    },
+    {
+        "name": "Sasima House",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.8 out of 5",
+        "numReview": "Based on 64 reviews",
+        "price": "18"
+    },
+    {
+        "name": "Baan Singharaj Old City",
+        "address": "Chiang Mai",
+        "star": "3.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.7 out of 5",
+        "numReview": "Based on 3 reviews",
+        "price": "18"
+    },
+    {
+        "name": "Kiree Thara Boutique Resort",
+        "address": "Chiang Mai",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 136 reviews",
+        "price": "43"
+    },
+    {
+        "name": "Rustic River Boutique",
+        "address": "Chiang Mai",
+        "star": "2.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.5 out of 5",
+        "numReview": "Based on 10 reviews",
+        "price": "64"
+    },
+    {
+        "name": "Saengpanya Home Boutique Hotel",
+        "address": "Chiang Mai",
+        "star": "2.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 5.0 out of 5",
+        "numReview": "Based on 1 review",
+        "price": "28"
+    },
+    {
+        "name": "X2 Chiang Mai North Gate Villa",
+        "address": "Chiang Mai",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 6 reviews",
+        "price": "473"
+    },
+    {
+        "name": "Yaang Come Village",
+        "address": "Chiang Mai",
+        "star": "4.0 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.4 out of 5",
+        "numReview": "Based on 510 reviews",
+        "price": "77"
+    },
+    {
+        "name": "Chiang Mai Gate Hotel",
+        "address": "Chiang Mai",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 278 reviews",
+        "price": "21"
+    },
+    {
+        "name": "Woodfield Resort",
+        "address": "Chiang Mai",
+        "star": "3.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 4.3 out of 5",
+        "numReview": "Based on 14 reviews",
+        "price": "31"
+    },
+    {
+        "name": "Buaraya Hotel Chiangmai",
+        "address": "Chiang Mai",
+        "star": "2.5 out of 5.0",
+        "near": "",
+        "review": "Guest rating is 3.3 out of 5",
+        "numReview": "Based on 26 reviews",
+        "price": "22"
+    }
+]

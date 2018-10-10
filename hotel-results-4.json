@@ -1,0 +1,407 @@
+[
+    {
+        "name": "Aonang Silver Orchid Resort",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 11.34 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 34 reviews",
+        "price": "32"
+    },
+    {
+        "name": "Mandawee Resort & Spa",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 12.16 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 2.5 out of 5",
+        "numReview": "Based on 20 reviews",
+        "price": "28"
+    },
+    {
+        "name": "Railay Phutawan Resort",
+        "address": "Krabi",
+        "star": "2.5 out of 5.0",
+        "near": "Hotel is 11.25 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 140 reviews",
+        "price": "33"
+    },
+    {
+        "name": "Phu Dahla Residences",
+        "address": "New to Expedia! Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "Hotel is 11.89 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 140 reviews",
+        "price": "32"
+    },
+    {
+        "name": "Na Sook Resort",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 9.45 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 5.0 out of 5",
+        "numReview": "Based on 4 reviews",
+        "price": "21"
+    },
+    {
+        "name": "The Nine Thipthara Klongson Resort",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 12.28 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 172 reviews",
+        "price": "30"
+    },
+    {
+        "name": "Railay Bay Resort and Spa",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 11.60 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 834 reviews",
+        "price": "70"
+    },
+    {
+        "name": "Aonang Regent",
+        "address": "Krabi",
+        "star": "2.5 out of 5.0",
+        "near": "Hotel is 11.03 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.1 out of 5",
+        "numReview": "Based on 129 reviews",
+        "price": "17"
+    },
+    {
+        "name": "Railay Princess Resort & Spa",
+        "address": "Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "Hotel is 11.46 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 591 reviews",
+        "price": "39"
+    },
+    {
+        "name": "Aonang Fiore Resort",
+        "address": "Top Property Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 10.84 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.5 out of 5",
+        "numReview": "Based on 138 reviews",
+        "price": "59"
+    },
+    {
+        "name": "Aonang All Seasons Beach Resort",
+        "address": "Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "Hotel is 12.15 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.6 out of 5",
+        "numReview": "Based on 185 reviews",
+        "price": "26"
+    },
+    {
+        "name": "Aonang Cliff Beach Suites and Villas",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 11.70 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.4 out of 5",
+        "numReview": "Based on 37 reviews",
+        "price": "105"
+    },
+    {
+        "name": "Aonang Cliff Beach Resort",
+        "address": "VIP Access.",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 11.68 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.1 out of 5",
+        "numReview": "Based on 958 reviews",
+        "price": "53"
+    },
+    {
+        "name": "AVA Sea Resort",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 11.59 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.1 out of 5",
+        "numReview": "Based on 154 reviews",
+        "price": "55"
+    },
+    {
+        "name": "Thip Residence Boutique Hotel",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 9.40 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 174 reviews",
+        "price": "18"
+    },
+    {
+        "name": "Buri Tara Resort",
+        "address": "Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "Hotel is 12.03 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 312 reviews",
+        "price": "24"
+    },
+    {
+        "name": "BlueSotel Krabi Ao Nang Beach",
+        "address": "VIP Access.",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 11.60 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.2 out of 5",
+        "numReview": "Based on 642 reviews",
+        "price": "41"
+    },
+    {
+        "name": "Aonang Mountain View Hotel",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 11.30 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.8 out of 5",
+        "numReview": "Based on 87 reviews",
+        "price": "23"
+    },
+    {
+        "name": "Aonang Buri Resort",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 12.17 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 343 reviews",
+        "price": "29"
+    },
+    {
+        "name": "Krabi Thai Village Resort",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 11.85 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 168 reviews",
+        "price": "52"
+    },
+    {
+        "name": "Maneetel Krabi Beachfront",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 12.28 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 43 reviews",
+        "price": "62"
+    },
+    {
+        "name": "Anyavee Nam Mao Beach Resort",
+        "address": "New to Expedia! Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 10.07 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 28 reviews",
+        "price": "7"
+    },
+    {
+        "name": "Villa Kanwara",
+        "address": "New to Expedia! Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "Hotel is 11.72 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 28 reviews",
+        "price": "150"
+    },
+    {
+        "name": "The Haven Krabi",
+        "address": "New to Expedia! Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 9.87 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.7 out of 5",
+        "numReview": "Based on 28 reviews",
+        "price": "93"
+    },
+    {
+        "name": "Baan Bandalay Hotel",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 11.85 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 90 reviews",
+        "price": "14"
+    },
+    {
+        "name": "Pavilion Queen's Bay",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 11.85 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.4 out of 5",
+        "numReview": "Based on 128 reviews",
+        "price": "32"
+    },
+    {
+        "name": "Me Mee Place & Tour",
+        "address": "Krabi",
+        "star": "2.5 out of 5.0",
+        "near": "Hotel is 11.80 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.5 out of 5",
+        "numReview": "Based on 41 reviews",
+        "price": "18"
+    },
+    {
+        "name": "Dream Valley Resort Tonsai Beach",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 11.61 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.5 out of 5",
+        "numReview": "Based on 150 reviews",
+        "price": "26"
+    },
+    {
+        "name": "Vieng Thong Hotel",
+        "address": "Downtown Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 5.09 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.4 out of 5",
+        "numReview": "Based on 23 reviews",
+        "price": "13"
+    },
+    {
+        "name": "Krabi Cha-da Resort",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 11.23 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.3 out of 5",
+        "numReview": "Based on 20 reviews",
+        "price": "26"
+    },
+    {
+        "name": "Jinda Guesthouse",
+        "address": "Krabi",
+        "star": "2.5 out of 5.0",
+        "near": "Hotel is 11.83 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.6 out of 5",
+        "numReview": "Based on 7 reviews",
+        "price": "12"
+    },
+    {
+        "name": "Rapala Rock Wood Resort",
+        "address": "Krabi",
+        "star": "2.5 out of 5.0",
+        "near": "Hotel is 11.21 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.0 out of 5",
+        "numReview": "Based on 34 reviews",
+        "price": "8"
+    },
+    {
+        "name": "Krabi Marina Seaview",
+        "address": "New to Expedia! Downtown Krabi",
+        "star": "2.5 out of 5.0",
+        "near": "Hotel is 5.03 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.1 out of 5",
+        "numReview": "Based on 10 reviews",
+        "price": "13"
+    },
+    {
+        "name": "Sunrise Tropical Resort",
+        "address": "Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "Hotel is 11.47 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.1 out of 5",
+        "numReview": "Based on 195 reviews",
+        "price": "39"
+    },
+    {
+        "name": "Apasari Krabi",
+        "address": "Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "Hotel is 12.00 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.9 out of 5",
+        "numReview": "Based on 226 reviews",
+        "price": "25"
+    },
+    {
+        "name": "Sunda Resort",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 12.04 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.8 out of 5",
+        "numReview": "Based on 160 reviews",
+        "price": "26"
+    },
+    {
+        "name": "Ao Nang Phu Pi Maan Resort and Spa",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 11.21 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.3 out of 5",
+        "numReview": "Based on 214 reviews",
+        "price": "47"
+    },
+    {
+        "name": "Viangviman Private Pool Villa and resort",
+        "address": "Krabi",
+        "star": "3.5 out of 5.0",
+        "near": "Hotel is 12.21 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.3 out of 5",
+        "numReview": "Based on 10 reviews",
+        "price": "44"
+    },
+    {
+        "name": "The Moderna Resort",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 10.01 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.4 out of 5",
+        "numReview": "Based on 10 reviews",
+        "price": "48"
+    },
+    {
+        "name": "7 Heaven Residence Aonang",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 10.01 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.4 out of 5",
+        "numReview": "Based on 10 reviews",
+        "price": "71"
+    },
+    {
+        "name": "Sita Krabi Hotel",
+        "address": "New to Expedia! Downtown Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 5.13 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.4 out of 5",
+        "numReview": "Based on 10 reviews",
+        "price": "25"
+    },
+    {
+        "name": "LaRio Hotel Krabi",
+        "address": "Krabi",
+        "star": "3.0 out of 5.0",
+        "near": "Hotel is 11.12 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.7 out of 5",
+        "numReview": "Based on 57 reviews",
+        "price": "9"
+    },
+    {
+        "name": "Krabi Inn Resort",
+        "address": "Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 8.60 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 4.7 out of 5",
+        "numReview": "Based on 57 reviews",
+        "price": "17"
+    },
+    {
+        "name": "Andakiri Pool Villa",
+        "address": "Top Property Krabi",
+        "star": "4.0 out of 5.0",
+        "near": "Hotel is 11.85 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 3.1 out of 5",
+        "numReview": "Based on 87 reviews",
+        "price": "14"
+    },
+    {
+        "name": "Riverside Hotel",
+        "address": "Downtown Krabi",
+        "star": "2.0 out of 5.0",
+        "near": "Hotel is 5.02 mi from Krabi Intl. (KBV)",
+        "review": "Guest rating is 2.9 out of 5",
+        "numReview": "Based on 61 reviews",
+        "price": "15"
+    }
+]

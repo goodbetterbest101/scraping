@@ -46,8 +46,8 @@ def parse(source,destination,date):
 
             ###########################################
 
-            url = "https://www.hotels.com/search.do?&locale=en_TH&q-destination=Chiang%20Mai,%20Thailand&q-check-in=2018-12-07&q-check-out=2018-12-08&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
-            # url = "https://www.expedia.com/Hotel-Search?destination=Krabi%2C+Thailand+%28KBV-Krabi+Intl.%29&startDate=10/01/2018&endDate=10/06/2018&rooms=1&adults=1&sort=deals"
+            # url = "https://www.hotels.com/search.do?&locale=en_TH&q-destination=Chiang%20Mai,%20Thailand&q-check-in=2018-12-07&q-check-out=2018-12-08&q-rooms=1&q-room-0-adults=2&q-room-0-children=0"
+            url = "https://www.expedia.com/Hotel-Search?destination=Krabi%2C+Thailand+%28KBV-Krabi+Intl.%29&startDate=10/20/2018&endDate=10/23/2018&rooms=1&adults=1&sort=deals"
             # headers = {'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.90 Safari/537.36'}
             opts = ChromeOptions()
             opts.add_experimental_option("detach", True)
@@ -58,24 +58,19 @@ def parse(source,destination,date):
 
             driver.get(url)
             time.sleep(0.5)
-            elem = driver.find_element_by_tag_name("body")
-            print('1')
-            no_of_pagedowns = 6
-            while no_of_pagedowns:
-                print('while')
-                elem.send_keys(Keys.PAGE_DOWN)
-                time.sleep(0.25)
-                no_of_pagedowns-=1
+            # elem = driver.find_element_by_tag_name("body")
+            # print('1')
+            # no_of_pagedowns = 6
+            # while no_of_pagedowns:
+            #     print('while')
+            #     elem.send_keys(Keys.PAGE_DOWN)
+            #     time.sleep(0.25)
+            #     no_of_pagedowns-=1
 
-            # print('finish while and wait for 50 sec')
+            time.sleep(1)
 
-            # driver.implicitly_wait(50) # seconds
-
-            # print('pass 50 sec!')
-
-            time.sleep(10)
-
-            post_elems = driver.find_elements_by_class_name("listings")
+            # post_elems = driver.find_elements_by_class_name("listings")
+            post_elems = driver.find_elements_by_id("resultsContainer")
 
             #### comment end here
            
@@ -90,40 +85,59 @@ def parse(source,destination,date):
             list = []
             name = ''
             address = ''
-            rating = ''
+            star = ''
             near = ''
+            info = ''
+            review = ''
+            numReview = ''
+            price = ''
 
             # print(raw_list[0])
             count = 0
             for data in raw_list:
-                if data != 'Deal of the Day' and data != 'Today’s Best Deal' and data != 'Save 50%Hurry, ends soon!':
+                if data:
+                    dataCheck = data.split(' ')
                     dataStr = str(data)
-                    if count == 0:
+                    if dataCheck[0] == 'Today':
+                        count += 1
+                    elif count == 1:
                         name = data
                         count += 1
-                    elif count == 1 and dataStr[0] >= '0' and dataStr[0] <= '9':
+                    elif count == 2:
+                        star = data
+                        count += 1
+                    elif count == 3:
                         address = data
                         count += 1
-                    elif count == 2 and dataStr[0] >= '0' and dataStr[0] <= '9':
-                        rating = data
+                    elif count == 4 and dataCheck[0] == 'Hotel':
+                        near = data
                         count += 1
-                    elif count == 3 or count == 4:
-                        near = near + data + ', '
-                        count += 1
-                    elif data == 'Choose Room':
+                    elif dataCheck[0] == 'Guest' and dataCheck [2] == 'is':
+                        review = data
+                    elif dataCheck[0] == 'Based':
+                        numReview = data       
+                    elif dataStr[0] == '$':
+                        price = data.strip('$')
+                    elif data == 'Sale!':
                         info_hotel = {
                             'name': name,
                             'address': address,
-                            'rating': rating,
+                            'star': star,
                             'near': near,
+                            'review': review,
+                            'numReview': numReview,
+                            'price': price
                         }
                         near = ''
                         count = 0
-                        list.append(info_hotel)
+                        list.append(info_hotel)        
+                    
 
             # print(list)
-            with open('hotel-results-2.json','w') as fp:
+            with open('hotel-results-4.json','w') as fp:
              	json.dump(list,fp,indent = 4)
+            # with open('hotel-results-3.txt','w') as fp:
+            #  	fp.write(detail_hotel)
 
                         
                        

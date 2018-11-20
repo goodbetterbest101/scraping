@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "07:30 PM (19:30)",
+        "pickup": "Hua Lamphong Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "671"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "07:30 PM (19:30)",
+        "pickup": "Sam sen Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "670"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "07:30 PM (19:30)",
+        "pickup": "Don Mueang Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "663"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "04:05 AM (04:05)",
+        "pickup": "Hua Lamphong Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "421"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "04:05 AM (04:05)",
+        "pickup": "Hua Lamphong Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "261"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "04:05 AM (04:05)",
+        "pickup": "Sam sen Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "420"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "04:05 AM (04:05)",
+        "pickup": "Sam sen Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "261"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "04:05 AM (04:05)",
+        "pickup": "Don Mueang Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "413"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "04:05 AM (04:05)",
+        "pickup": "Don Mueang Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "258"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "12:10 PM (12:10)",
+        "pickup": "Hua Lamphong Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "461"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "12:10 PM (12:10)",
+        "pickup": "Hua Lamphong Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "301"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "12:10 PM (12:10)",
+        "pickup": "Sam sen Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "460"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "12:10 PM (12:10)",
+        "pickup": "Sam sen Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "301"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "12:10 PM (12:10)",
+        "pickup": "Don Mueang Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "453"
+    },
+    {
+        "name": "Thai Railway",
+        "departureTime": "08:30 AM (08:30)",
+        "arrivalTime": "12:10 PM (12:10)",
+        "pickup": "Don Mueang Station",
+        "dropoff": "Chiang Mai Station",
+        "price": "298"
+    }
+]

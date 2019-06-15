@@ -89,7 +89,7 @@ def parse(source,destination,date):
             return sortedlist
 
         except ValueError:
-            print ("Rerying...")
+            print ("Rerying.....")
 
             return {"error":"failed to process the page",}
 
